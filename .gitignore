@@ -1,1 +1,8 @@
 *.pem
+*.gz
+*.toml
+*.lock
+
+
+/__pycache__/
+/supplier-data/
