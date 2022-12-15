@@ -35,4 +35,4 @@ def upload(directory):
 if __name__ == "__main__":
     images_dir = os.path.join(os.getcwd(), "supplier-data/images")
     process(images_dir)
-    upload(images_dir)
+    upload(os.path.join(images_dir, "export"))
